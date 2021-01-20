@@ -1,0 +1,52 @@
+<!-- Full-width images with number and caption text -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="slider.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="jquery-3.5.1.min.js"></script>
+
+</head>
+    <body>
+        <div class="container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img class="imgs" src="FB_IMG_15052679253614404.jpg" >
+                <div class="text">Welcome There </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img class="imgs" src="FB_IMG_15052679306355793.jpg" >
+                <div class="text">I Love Cats </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img class="imgs" src="FB_IMG_15052679351173714.jpg" >
+                <div class="text">Cats are Cute</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img class="imgs" src="FB_IMG_15061932564267276.jpg" >
+                <div class="text">Just Smile </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span id="dot1" class="dot"></span>
+                <span id="dot2" class="dot"></span>
+                <span id="dot3" class="dot" ></span>
+                <span id="dot4" class="dot"></span>
+            </div>
+        </div>
+        <script src="slider.js"></script>
+    </body>
+</html>
